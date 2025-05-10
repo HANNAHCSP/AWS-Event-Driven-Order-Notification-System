@@ -1,5 +1,4 @@
-# AWS-Event-Driven-Order-Notification-System
-Event-driven order notification system using AWS services
+
 # AWS Event-Driven Order Notification System
 
 This project implements an event-driven architecture for an e-commerce platform's order processing system using AWS services:
@@ -115,9 +114,3 @@ The DLQ implementation in our system allows for:
 
 By using both visibility timeout and DLQ properly, our system achieves better reliability and provides mechanisms for handling failures gracefully.
 
-## Repository Contents
-
-- `README.md`: This file with setup instructions
-- `lambda_function.py`: Python implementation of the Lambda function
-- `lambda_function.js`: Node.js implementation of the Lambda function
-- `screenshots/`: Folder containing verification screenshots
