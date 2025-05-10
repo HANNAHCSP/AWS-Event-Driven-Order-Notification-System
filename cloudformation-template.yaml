@@ -167,7 +167,7 @@ Outputs:
   DynamoDBTableName:
     Description: Name of the DynamoDB table
     Value:
-      Ref: OrdersTable
+      Ref: orders
   SNSTopicARN:
     Description: ARN of the SNS topic
     Value:
